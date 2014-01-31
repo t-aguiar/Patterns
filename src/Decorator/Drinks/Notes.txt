@@ -1,0 +1,15 @@
+Uses subclassing in order to achieve type matching
+Abstract base class, concrete subclasses
+
+New behavior is created by composing different subclasses
+together, not from the inheritance.
+Preserves Composition over Inheritance.
+
+Example uses abstract class and inheritance because base
+class was already provided.  Interface == Abstract class anyway
+
+Overall Form:
+- Abstract Base class for entire pattern
+- Concrete bases subclass the Base ie. each object only gets one
+- Abstract subclass to the Base for the condiments/wrappers to extend
+- Concrete subclasses for the decorating features

@@ -1,0 +1,8 @@
+Observer Pattern
+    A one to many pattern that allows any listeners/observers to be notified of
+    changes to a subject.
+    In this example, it is a weather station that will update other views.
+    Taken from Head First Design Patterns
+
+    Subjects have a list of all their observers
+    Observers have a reference to their subject
